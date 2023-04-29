@@ -14,6 +14,7 @@
 		BFBDAF3029FD7F3600A678E1 /* hackathon_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBDAF2F29FD7F3600A678E1 /* hackathon_swiftuiTests.swift */; };
 		BFBDAF3A29FD7F3600A678E1 /* hackathon_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBDAF3929FD7F3600A678E1 /* hackathon_swiftuiUITests.swift */; };
 		BFBDAF3C29FD7F3600A678E1 /* hackathon_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBDAF3B29FD7F3600A678E1 /* hackathon_swiftuiUITestsLaunchTests.swift */; };
+		BFC4BDAE29FDA1DC0052ED18 /* map_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC4BDAD29FDA1DC0052ED18 /* map_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BFBDAF3529FD7F3600A678E1 /* hackathon_swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackathon_swiftuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBDAF3929FD7F3600A678E1 /* hackathon_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathon_swiftuiUITests.swift; sourceTree = "<group>"; };
 		BFBDAF3B29FD7F3600A678E1 /* hackathon_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathon_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC4BDAD29FDA1DC0052ED18 /* map_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		BFBDAF1D29FD7F3500A678E1 /* hackathon_swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				BFC4BDAD29FDA1DC0052ED18 /* map_view.swift */,
 				BFBDAF1E29FD7F3500A678E1 /* hackathon_swiftuiApp.swift */,
 				BFBDAF2029FD7F3500A678E1 /* ContentView.swift */,
 				BFBDAF2229FD7F3600A678E1 /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			files = (
 				BFBDAF2129FD7F3500A678E1 /* ContentView.swift in Sources */,
 				BFBDAF1F29FD7F3500A678E1 /* hackathon_swiftuiApp.swift in Sources */,
+				BFC4BDAE29FDA1DC0052ED18 /* map_view.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
