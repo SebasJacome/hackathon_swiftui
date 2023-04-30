@@ -133,4 +133,8 @@ VALUES
 ('Francisco Medina', 'francisco.medina@hotmail.com', 'x&9vL2uQ'),
 ('Carmen Sanchez', 'carmen.sanchez@yahoo.com', 'j#8cS2fP'),
 ('Pablo Aguilar', 'pablo.aguilar@gmail.com', 's!4tF1mB'),
-('Sofia Hernandez', 'sofia.hernandez@hotmail.com', 'w#7pJ4nT');
+('Sofia Hernandez', 'sofia.hernandez@hotmail.com', 'w#7pJ4nT'),
+('Jose Kuri', 'jose.kuri@gmail.com', 'password'),
+('Andres Escobedo', 'andres.escobedo@gmail.com', 'password'),
+('Eduardo Aranda', 'eduardo.aranda@gmail.com', 'password'),
+('Sebastian Jacome', 'sebastian.jacome@gmail.com', 'password');
