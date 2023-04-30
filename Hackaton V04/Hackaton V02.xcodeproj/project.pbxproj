@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0601313229FED47A00B9AC70 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 0601313129FED47A00B9AC70 /* Lottie */; };
+		0601313629FED75E00B9AC70 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0601313529FED75E00B9AC70 /* LottieView.swift */; };
+		068459F029FD9C9300441C23 /* Hackaton_V02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068459EF29FD9C9300441C23 /* Hackaton_V02App.swift */; };
+		068459F229FD9C9300441C23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068459F129FD9C9300441C23 /* ContentView.swift */; };
+		068459F429FD9C9700441C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068459F329FD9C9700441C23 /* Assets.xcassets */; };
+		068459F729FD9C9700441C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 068459F629FD9C9700441C23 /* Preview Assets.xcassets */; };
+		068459FE29FD9CD800441C23 /* ViewPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068459FD29FD9CD800441C23 /* ViewPark.swift */; };
+		06845A0029FD9CF200441C23 /* ViewConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068459FF29FD9CF200441C23 /* ViewConfirmation.swift */; };
+		06F4ED5929FDC4C80093D500 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED5829FDC4C80093D500 /* MapView.swift */; };
+		06F4ED5B29FDC57D0093D500 /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED5A29FDC57D0093D500 /* ParkModel.swift */; };
+		06F4ED5D29FDC6040093D500 /* ParkingLotDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED5C29FDC6040093D500 /* ParkingLotDetailView.swift */; };
+		06F4ED5F29FDC66C0093D500 /* ReviewFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED5E29FDC66C0093D500 /* ReviewFormView.swift */; };
+		06F4ED6129FDC6A70093D500 /* ParkingLotDetailViewWithReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED6029FDC6A70093D500 /* ParkingLotDetailViewWithReview.swift */; };
+		06F4ED6329FDFE180093D500 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED6229FDFE180093D500 /* LoginView.swift */; };
+		06F4ED6729FE02980093D500 /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED6629FE02980093D500 /* ReservationsView.swift */; };
+		06F4ED6929FE04350093D500 /* PrincipalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F4ED6829FE04350093D500 /* PrincipalView.swift */; };
+		BF487C7329FEDAA9003CB9FA /* 57463-parking-concept.json in Resources */ = {isa = PBXBuildFile; fileRef = BF487C7229FEDAA9003CB9FA /* 57463-parking-concept.json */; };
+		BF487C7529FEDF43003CB9FA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF487C7429FEDF43003CB9FA /* Network.swift */; };
+		BF487C7A29FEFC33003CB9FA /* estacionamiento.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF487C7929FEFC33003CB9FA /* estacionamiento.swift */; };
+		BF487C7E29FF0449003CB9FA /* resenas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF487C7D29FF0449003CB9FA /* resenas.swift */; };
+		BF487C8029FF05CA003CB9FA /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF487C7F29FF05CA003CB9FA /* File.swift */; };
+		BF8210CB29FF261200AC723D /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8210CA29FF261200AC723D /* RegisterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0601313529FED75E00B9AC70 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		068459EC29FD9C9300441C23 /* Park-a-Lot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park-a-Lot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		068459EF29FD9C9300441C23 /* Hackaton_V02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hackaton_V02App.swift; sourceTree = "<group>"; };
+		068459F129FD9C9300441C23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		068459F329FD9C9700441C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		068459F629FD9C9700441C23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		068459FD29FD9CD800441C23 /* ViewPark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPark.swift; sourceTree = "<group>"; };
+		068459FF29FD9CF200441C23 /* ViewConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfirmation.swift; sourceTree = "<group>"; };
+		06F4ED5829FDC4C80093D500 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		06F4ED5A29FDC57D0093D500 /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
+		06F4ED5C29FDC6040093D500 /* ParkingLotDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotDetailView.swift; sourceTree = "<group>"; };
+		06F4ED5E29FDC66C0093D500 /* ReviewFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewFormView.swift; sourceTree = "<group>"; };
+		06F4ED6029FDC6A70093D500 /* ParkingLotDetailViewWithReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLotDetailViewWithReview.swift; sourceTree = "<group>"; };
+		06F4ED6229FDFE180093D500 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		06F4ED6629FE02980093D500 /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
+		06F4ED6829FE04350093D500 /* PrincipalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrincipalView.swift; sourceTree = "<group>"; };
+		BF487C7229FEDAA9003CB9FA /* 57463-parking-concept.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "57463-parking-concept.json"; sourceTree = "<group>"; };
+		BF487C7429FEDF43003CB9FA /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BF487C7929FEFC33003CB9FA /* estacionamiento.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = estacionamiento.swift; sourceTree = "<group>"; };
+		BF487C7D29FF0449003CB9FA /* resenas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resenas.swift; sourceTree = "<group>"; };
+		BF487C7F29FF05CA003CB9FA /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BF8210CA29FF261200AC723D /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterView.swift; path = ../../../pruebasss/LoginSwift/LoginSwift/RegisterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		068459E929FD9C9300441C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0601313229FED47A00B9AC70 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		068459E329FD9C9300441C23 = {
+			isa = PBXGroup;
+			children = (
+				068459EE29FD9C9300441C23 /* Hackaton V02 */,
+				068459ED29FD9C9300441C23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		068459ED29FD9C9300441C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				068459EC29FD9C9300441C23 /* Park-a-Lot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		068459EE29FD9C9300441C23 /* Hackaton V02 */ = {
+			isa = PBXGroup;
+			children = (
+				BF487C7229FEDAA9003CB9FA /* 57463-parking-concept.json */,
+				068459EF29FD9C9300441C23 /* Hackaton_V02App.swift */,
+				06F4ED5A29FDC57D0093D500 /* ParkModel.swift */,
+				06F4ED6029FDC6A70093D500 /* ParkingLotDetailViewWithReview.swift */,
+				06F4ED5C29FDC6040093D500 /* ParkingLotDetailView.swift */,
+				06F4ED5E29FDC66C0093D500 /* ReviewFormView.swift */,
+				06F4ED5829FDC4C80093D500 /* MapView.swift */,
+				BF487C7F29FF05CA003CB9FA /* File.swift */,
+				068459FF29FD9CF200441C23 /* ViewConfirmation.swift */,
+				068459FD29FD9CD800441C23 /* ViewPark.swift */,
+				BF487C7D29FF0449003CB9FA /* resenas.swift */,
+				0601313529FED75E00B9AC70 /* LottieView.swift */,
+				BF487C7429FEDF43003CB9FA /* Network.swift */,
+				BF8210CA29FF261200AC723D /* RegisterView.swift */,
+				06F4ED6229FDFE180093D500 /* LoginView.swift */,
+				BF487C7929FEFC33003CB9FA /* estacionamiento.swift */,
+				06F4ED6629FE02980093D500 /* ReservationsView.swift */,
+				068459F129FD9C9300441C23 /* ContentView.swift */,
+				06F4ED6829FE04350093D500 /* PrincipalView.swift */,
+				068459F329FD9C9700441C23 /* Assets.xcassets */,
+				068459F529FD9C9700441C23 /* Preview Content */,
+			);
+			path = "Hackaton V02";
+			sourceTree = "<group>";
+		};
+		068459F529FD9C9700441C23 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				068459F629FD9C9700441C23 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		068459EB29FD9C9300441C23 /* Park-a-Lot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068459FA29FD9C9700441C23 /* Build configuration list for PBXNativeTarget "Park-a-Lot" */;
+			buildPhases = (
+				068459E829FD9C9300441C23 /* Sources */,
+				068459E929FD9C9300441C23 /* Frameworks */,
+				068459EA29FD9C9300441C23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park-a-Lot";
+			packageProductDependencies = (
+				0601313129FED47A00B9AC70 /* Lottie */,
+			);
+			productName = "Hackaton V02";
+			productReference = 068459EC29FD9C9300441C23 /* Park-a-Lot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		068459E429FD9C9300441C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					068459EB29FD9C9300441C23 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 068459E729FD9C9300441C23 /* Build configuration list for PBXProject "Hackaton V02" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 068459E329FD9C9300441C23;
+			packageReferences = (
+				0601313029FED47A00B9AC70 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = 068459ED29FD9C9300441C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				068459EB29FD9C9300441C23 /* Park-a-Lot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		068459EA29FD9C9300441C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068459F729FD9C9700441C23 /* Preview Assets.xcassets in Resources */,
+				068459F429FD9C9700441C23 /* Assets.xcassets in Resources */,
+				BF487C7329FEDAA9003CB9FA /* 57463-parking-concept.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		068459E829FD9C9300441C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F4ED6929FE04350093D500 /* PrincipalView.swift in Sources */,
+				06F4ED6129FDC6A70093D500 /* ParkingLotDetailViewWithReview.swift in Sources */,
+				BF487C7A29FEFC33003CB9FA /* estacionamiento.swift in Sources */,
+				06F4ED5F29FDC66C0093D500 /* ReviewFormView.swift in Sources */,
+				068459F229FD9C9300441C23 /* ContentView.swift in Sources */,
+				BF487C7E29FF0449003CB9FA /* resenas.swift in Sources */,
+				BF487C8029FF05CA003CB9FA /* File.swift in Sources */,
+				BF487C7529FEDF43003CB9FA /* Network.swift in Sources */,
+				BF8210CB29FF261200AC723D /* RegisterView.swift in Sources */,
+				06F4ED5D29FDC6040093D500 /* ParkingLotDetailView.swift in Sources */,
+				06F4ED5B29FDC57D0093D500 /* ParkModel.swift in Sources */,
+				06845A0029FD9CF200441C23 /* ViewConfirmation.swift in Sources */,
+				068459FE29FD9CD800441C23 /* ViewPark.swift in Sources */,
+				06F4ED5929FDC4C80093D500 /* MapView.swift in Sources */,
+				06F4ED6729FE02980093D500 /* ReservationsView.swift in Sources */,
+				0601313629FED75E00B9AC70 /* LottieView.swift in Sources */,
+				06F4ED6329FDFE180093D500 /* LoginView.swift in Sources */,
+				068459F029FD9C9300441C23 /* Hackaton_V02App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		068459F829FD9C9700441C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		068459F929FD9C9700441C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		068459FB29FD9C9700441C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hackaton V02/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-238814.Hackaton-V02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		068459FC29FD9C9700441C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hackaton V02/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-238814.Hackaton-V02";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068459E729FD9C9300441C23 /* Build configuration list for PBXProject "Hackaton V02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068459F829FD9C9700441C23 /* Debug */,
+				068459F929FD9C9700441C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		068459FA29FD9C9700441C23 /* Build configuration list for PBXNativeTarget "Park-a-Lot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068459FB29FD9C9700441C23 /* Debug */,
+				068459FC29FD9C9700441C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0601313029FED47A00B9AC70 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0601313129FED47A00B9AC70 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0601313029FED47A00B9AC70 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 068459E429FD9C9300441C23 /* Project object */;
+}
