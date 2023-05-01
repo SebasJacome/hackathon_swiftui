@@ -31,7 +31,7 @@ struct LoginView: View {
                     
                     
                 }.padding(.top,10)
-                LottieView(name: "57463-parking-concept", loopMode: .repeat(3) )
+                LottieView(name: "57463-parking-concept", loopMode: .loop )
                 
             
                 if showAlert{
